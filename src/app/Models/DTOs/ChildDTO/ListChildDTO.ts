@@ -1,0 +1,4 @@
+﻿class ListChildDTO extends PutChildDTO {
+
+}
+

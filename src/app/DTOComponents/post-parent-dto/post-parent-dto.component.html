@@ -1,0 +1,50 @@
+<h3>Parent</h3>
+<div class="container">
+    <form>
+        <div class="row">
+            <div class="col">
+                <label for="txtfname">FirstName</label>
+                <input type="text" class="form-control" name="fname" id="tfname">
+            </div>
+            <div class="col">
+                <label for="txtmname">MiddleName</label>
+                <input type="text" class="form-control" name="mname" id="tmname">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <label for="txtlname">LastName</label>
+                <input type="text" class="form-control" name="lname" id="tlname">
+            </div>
+            <div class="col">
+                <label for="txtphone">PhoneNo</label>
+                <input type="txt" class="form-control" name="phone" id="tphone">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <label for="datedob">D.O.B</label>
+                <input type="datetime-local" class="form-control" name="date" id="datedob">
+            </div>
+            <div class="col">
+                <label for="userId">UserID</label>
+                <input type="number" class="form-control" name="userId" id="numuserId">
+            </div>
+            <div class="row">
+                <div class="col">
+                    <label>IsFamilyHead</label>
+                    <input type="radio" class="mt-4 mx-1" name="familyHead" id="head" value="true"> <label for="head">Yes</label> <input type="radio" class="mx-1" id="notHead" name="familyHead" value="false"> <label for="notHead">No</label>
+                </div>
+                <div class="col">
+                    <label>Gender</label>
+                    <input type="radio" name="gender" class="mt-4 mx-1" id="male" value="male"> <label for="male">Male</label> <input type="radio" class="mx-1" value="female" id="female" name="gender"> <label for="female">Female</label>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <input type="button" class="btn btn-outline-success" value="Save" (click)="bind()">
+            </div>
+        </div>
+
+    </form>
+</div>

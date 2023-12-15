@@ -1,0 +1,4 @@
+﻿class SearchUserDTO extends PutUserDTO {
+
+}
+

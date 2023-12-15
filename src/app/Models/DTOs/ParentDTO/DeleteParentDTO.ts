@@ -1,0 +1,4 @@
+﻿class DeleteParentDTO extends PutParentDTO {
+
+}
+

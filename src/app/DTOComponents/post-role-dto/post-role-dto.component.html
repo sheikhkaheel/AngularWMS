@@ -1,0 +1,27 @@
+<div class="container">
+    <h3>Role</h3>
+    <form action="#">
+        <label for="txtroleName">Role Name</label>
+        <input type="text" id="txtroleName" class="form-control mb-3" name="txtroleName" placeholder="type role..."> <span id="validateRoleName"></span>
+
+        <label for="x=txtdisplayName">Display Name</label> 
+        <input type="text" id="txtdisplayName" class="form-control" name="txtdisplayName" placeholder="type display name..."> <span id="validateDisplayName"></span> <br>
+        
+        <label for="chkisSuperAdmin">IsSuperAdmin</label>
+        <input type="checkbox" class="mx-1" name="chkisSuperAdmin" id="chkisSuperAdmin">  <br>
+        
+        <label for="chkisAdmin">IsAdmin</label>
+        <input type="checkbox" class="mx-1" name="chkisAdmin" id="chkisAdmin">  <br>
+        
+        <label for="chkisParent">isParent</label>
+        <input type="checkbox" class="mx-1" id="chkisParent" name="chkisParent">  <br>
+        
+        <label for="chkisWaza">IsWaza</label>
+        <input type="checkbox" class="mx-1" id="chkisWaza" name="chkisWaza"> <br>
+        
+        <label for="chkisActive">IsActive</label>
+        <input type="checkbox" class="mx-1" id="chkisActive" name="chkisActive" checked> <br>
+        
+        <input type="button" class="btn btn-outline-warning form-control mt-3" value="save" (click)="bind()">
+    </form>    
+</div>

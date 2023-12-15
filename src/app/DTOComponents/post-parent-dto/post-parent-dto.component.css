@@ -1,0 +1,23 @@
+h3 {
+    text-align: center;
+    font-family: monospace;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+
+form {
+    border: 1px solid #cdc7c7;
+    padding: 30px 40px 100px 30px;
+    border-radius: 8px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #ffffff53;
+    filter: contrast(1px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    height: 100%;
+    margin-bottom: 2rem;
+    background-color: 637E76;
+}
+
+input[type="checkbox"] {
+    margin-top: 1rem;
+}

@@ -1,0 +1,4 @@
+﻿class PostWazaDTO extends CommonWazaDTO {
+
+}
+

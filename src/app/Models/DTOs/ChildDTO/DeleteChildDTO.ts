@@ -1,0 +1,4 @@
+﻿class DeleteChildDTO extends PutChildDTO {
+
+}
+

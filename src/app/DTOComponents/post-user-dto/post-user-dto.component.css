@@ -1,0 +1,44 @@
+h3{
+    text-align: center;
+    font-family: monospace;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+
+form{
+    border: 1px solid #cdc7c7;
+    padding: 30px 40px 100px 30px;
+    border-radius: 8px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: .8rem;
+    font-style:italic;
+    background-color: rgba(255, 255, 255, 0.304);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    filter: contrast(1px);
+    margin-bottom: 1rem;
+}
+
+#error1,#error2,#error3,#error4,#error5,#roleError{
+position: absolute;
+color: red;
+}
+
+#error1{
+    top: 41.6rem;
+}
+
+#error2{
+    top: 41.6rem;
+}
+
+#error3{
+    top: 45rem;
+}
+
+#error4{
+    top: 48.5rem;
+}
+
+#error5{
+    top: 52rem;
+}
